@@ -1,0 +1,48 @@
+# Use of LLM / ChatGPT Assistance
+This document explains how I used assistance with parts B and C, which was used as a learning aid throughout my code.
+
+---
+## Part B - Transformer Implementation
+**Tasks:*
+- Implement Transformer with:
+- token + positional embeddings
+- multihead self attention
+- final linear projection
+- train 
+
+**Challenges faces**
+- Structuring `model.py` with all Transformer components.
+- Writing the `generate.py decoding function for sampling.
+
+**How AI helped**
+- I asked prompts such as:
+> "Can you help me implement a Transformer in PyTorch with token embeddings, final linear projection and such on"?
+> "How do I write a generate function to decode tokens from a trained model?"
+
+-AI provided **example code snippets** and **step-by-step explanations for the asked.
+- I was able to see how my code differed from given, and was able to grasp an understanding as explanations were given after each line. 
+- I adjusted variables for my repo.
+
+With the guidance of AI, I was able to understand and learn how to build `model.py` and `generate.py`.
+
+
+## Part C - Computations & Training understanding 
+
+**Tasks**
+-Answering questions having to do with the machine used for this assignment, by including calculations, references and reasoning.
+
+**Challenges faced**
+- Understanding the theoretical formulas and tying them in with my training loop.
+
+**How AI helped:**
+-I asked prompts like:
+>How do we estimate the FLOPs for forward pass of the Transfoemer?
+> Why do my calculations represent a difference in compute and memory bound?
+
+AI helped me understand the computations in my files and allowed me to understand the outputs provided which helped me understand how these numbers correlate with one another. 
+
+##Reflection:
+
+AI acted as a guide/tutor throughout my coding and understanding of some of the questions being asked.
+When getting stumped, I would ask AI for an example and explanation which would then help me better understand the assignment
+I was able to better my coding throughout this assignment, with the help of AI. 
